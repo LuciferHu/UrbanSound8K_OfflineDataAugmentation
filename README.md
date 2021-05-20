@@ -21,6 +21,7 @@ note: WAVX is from microsoft and cannot be processed with built-in module [wave]
  Waveforms form DCASE2020 have just one kind of format:
  
  -PCM24, 1 channel, 44100Hz, WAV
+ 
  Note that I have reformat the audios to PCM16.
  
  # Usage
