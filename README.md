@@ -22,7 +22,7 @@ note: WAVX is from microsoft and cannot be processed with built-in module [wave]
  
  -PCM24, 1 channel, 44100Hz, WAV
  
- Note that I have reformat the audios to PCM16.
+ Note that I have reformat the audios to PCM16. And you cannot just add one channel of audio numpy array to another two channels of audio numpy array with PySoundfile.
  
  # Usage
  There are three files for creating a mixture.
