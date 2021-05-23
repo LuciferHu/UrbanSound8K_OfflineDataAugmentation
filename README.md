@@ -3,7 +3,7 @@ Use a method of  mixing an audio file with a noise file at any Signal-to-Noise R
 
 This project based on the repository [audio-SNR](https://github.com/Sato-Kunihiko/audio-SNR) and was built to mix examples from Dataset [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html) with a noise file from [DCASE2020 Task1](http://dcase.community/challenge2020/task-acoustic-scene-classification).
 
-# Denpencies
+# Dependencies
 librosa  0.8.0
 pysoundfile  0.10.3.post1
 
@@ -20,7 +20,7 @@ note: WAVX is from microsoft and cannot be processed with built-in module [wave]
 
  Waveforms form DCASE2020 have just one kind of format:
  
- -PCM24, 1 channel, 44100Hz, WAV
+ - PCM24, 1 channel, 44100Hz, WAV
  
  Note that I have reformat the audios to PCM16. And you cannot just numpy array of mono audio to numpy array of stereo audio with PySoundfile.
  
